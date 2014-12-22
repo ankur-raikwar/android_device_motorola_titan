@@ -32,7 +32,6 @@ TARGET_NO_BOOTLOADER := true
 
 
 # Kernel
-BOARD_KERNEL_CMDLINE :=
 TARGET_KERNEL_CONFIG := cyanogen_titan_defconfig
 TARGET_KERNEL_SOURCE := kernel/motorola/titan
 BOARD_KERNEL_PAGESIZE := 2048
