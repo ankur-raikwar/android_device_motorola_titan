@@ -14,6 +14,7 @@
 # limitations under the License.
 
 LOCAL_PATH := device/motorola/titan
+TARGET_SPECIFIC_HEADER_PATH := $(LOCAL_PATH)/include
 
 # Board Platform
 TARGET_BOARD_PLATFORM := msm8226
