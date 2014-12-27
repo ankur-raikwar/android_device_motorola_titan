@@ -46,24 +46,14 @@ PRODUCT_COPY_FILES += \
 
 # Ramdisk
 PRODUCT_PACKAGES += \
-    fstab.qcom \
-	init.class_main.sh \
-	init.mdm.sh \
+	fstab.qcom \
 	init.mmi.boot.sh \
-	init.mmi.overlay.rc \
 	init.mmi.radio.sh \
-	init.mmi.rc \
 	init.mmi.touch.sh \
-	init.mmi.usb.rc \
-	init.mmi.usb.sh \
-	init.qcom.class_core.sh \
 	init.qcom.early_boot.sh \
 	init.qcom.rc \
-	init.qcom.sh \
 	init.qcom.ssr.sh \
-	init.qcom.syspart_fixup.sh \
 	init.recovery.qcom.rc \
-	init.target.rc \
 	ueventd.qcom.rc
 
 # Camera
