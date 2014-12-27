@@ -68,7 +68,7 @@ BOARD_USERDATAIMAGE_PARTITION_SIZE := 5930614784
 
 
 # OTA Assert
-TARGET_OTA_ASSERT_DEVICE := xt1068,xt1069,xt1064,xt1063,titan_umts,titan_umtsds,titan_udstv,titan
+TARGET_OTA_ASSERT_DEVICE := xt1068,xt1069,xt1064,xt1063,titan_retaildsds,titan_umts,titan_umtsds,titan_udstv,titan
 
 
 # CMHW
