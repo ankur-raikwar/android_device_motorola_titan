@@ -54,7 +54,7 @@ void init_msm_properties(unsigned long msm_id, unsigned long msm_ver, char *boar
 
     property_get("ro.boot.radio", radio);
 
-    (ISMATCH(radio, "0x5")) {
+    if (ISMATCH(radio, "0x5")) {
         /*xt1068 */
         property_set("ro.product.device", "titan_umtsds");
         property_set("ro.product.name", "titan_retaildsds");
