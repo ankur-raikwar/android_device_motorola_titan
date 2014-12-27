@@ -264,7 +264,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Display
 PRODUCT_PROPERTY_OVERRIDES += \
-    debug.composition.type=dyn \
+    debug.composition.type=c2d \
     debug.enabletr=0 \
     debug.mdpcomp.logs=0 \
     debug.sf.hw=1 \
